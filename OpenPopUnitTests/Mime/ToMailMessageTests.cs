@@ -443,7 +443,7 @@ namespace OpenPopUnitTests.Mime
 			Assert.NotNull(mailMessage);
 
 			// Check no body or alternative views
-			Assert.IsNullOrEmpty(mailMessage.Body);
+			Assert.IsEmpty(mailMessage.Body);
 			Assert.IsEmpty(mailMessage.AlternateViews);
 
 			// Check attachment
@@ -468,7 +468,7 @@ namespace OpenPopUnitTests.Mime
 			Assert.NotNull(mailMessage);
 
 			// Check no body or alternative views
-			Assert.IsNullOrEmpty(mailMessage.Body);
+			Assert.IsEmpty(mailMessage.Body);
 			Assert.IsEmpty(mailMessage.AlternateViews);
 
 			// Check attachment

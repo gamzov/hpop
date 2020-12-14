@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <AssemblyOriginatorKeyFile>../OpenPopKeyFile.pfx</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+	<TargetFramework>net5.0</TargetFramework>
+    <AssemblyTitle>OpenPop POP3 Mail Library</AssemblyTitle>
+    <Company>OpenPop</Company>
+    <Product>OpenPop</Product>
+    <Description>POP3 Mail Library</Description>
+    <Copyright>Public Domain</Copyright>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <Version>2.0.6.0</Version>
+    <AssemblyVersion>2.0.6</AssemblyVersion>
+    <FileVersion>2.0.6.0</FileVersion>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <BaseAddress>285212672</BaseAddress>
+    <NoStdLib>false</NoStdLib>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="AssemblyCommon.cs" />
+    <Compile Remove="AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
